@@ -690,7 +690,9 @@ def generate_strategy_stats(
                 "csum_max": 0,
             }
         )
-
+    # 增加净值回撤
+    if content.get('max_drawdown_net'):
+        strat_stats["max_drawdown_net"] = content['max_drawdown_net']
     return strat_stats
 
 

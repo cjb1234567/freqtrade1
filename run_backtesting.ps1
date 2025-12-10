@@ -1,0 +1,2 @@
+$env:PYTHONUTF8 = "1"
+python .\freqtrade\main.py backtesting -c .\user_data\config_test.json --strategy BD70Strategy --timeframe 5m --timerange=20250101-20251201 --breakdown day week month --cache none

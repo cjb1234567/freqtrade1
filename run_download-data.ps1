@@ -1,0 +1,1 @@
+python .\freqtrade\main.py download-data -c .\user_data\config_test.json --timerange=20250101-20251201 --timeframes 5m 1h 4h
